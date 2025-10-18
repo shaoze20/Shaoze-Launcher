@@ -8,7 +8,7 @@
 
 2.主界面
 
-<img width="720" height="480" alt="Home" src="https://github.com/user-attachments/assets/b449c16c-0613-4e9b-aaaa-b830b9992d81" />
+<img width="720" height="480" alt="Home" src="https://github.com/user-attachments/assets/9f3ee662-901e-49d5-a7e8-edf881419086" />
 
 3.聊天界面
 
