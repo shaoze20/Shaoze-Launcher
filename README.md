@@ -14,7 +14,7 @@
 
 3.聊天界面
 
-<img width="720" height="480" alt="messge" src="https://github.com/user-attachments/assets/afbf96d8-fd75-4a9b-9e02-a4b015635e88" />
+<img width="720" height="480" alt="messge" src="https://github.com/user-attachments/assets/e73bb068-1395-4f13-a12e-b8361558560d" />
 
 4.系统工具
 
