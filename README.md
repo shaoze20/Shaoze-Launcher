@@ -6,7 +6,7 @@
 # 软件界面
 1.登录界面
 
-<img width="720" height="400" alt="登录界面" src="https://github.com/user-attachments/assets/48cfcf49-c0a9-4c9e-b8a0-95ba395fe652" />
+<img width="720" height="400" alt="登录界面" src="https://github.com/user-attachments/assets/6fcb8b7b-6244-4942-ab4a-7e800fc2fcc1" />
 
 2.主界面
 
@@ -14,7 +14,7 @@
 
 3.聊天界面
 
-<img width="720" height="480" alt="messge" src="https://github.com/user-attachments/assets/e73bb068-1395-4f13-a12e-b8361558560d" />
+<img width="720" height="480" alt="messge" src="https://github.com/user-attachments/assets/a185874e-568c-4cb7-be0e-407ff15301de" />
 
 4.系统工具
 
