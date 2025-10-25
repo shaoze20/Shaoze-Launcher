@@ -14,11 +14,11 @@
 
 3.聊天界面
 
-<img width="720" height="480" alt="messge" src="https://github.com/user-attachments/assets/a185874e-568c-4cb7-be0e-407ff15301de" />
+<img width="720" height="480" alt="messge" src="https://github.com/user-attachments/assets/aba59de0-7a6e-4aac-907a-fa62bf49cb6e" />
 
 4.系统工具
 
-<img width="720" height="480" alt="系统工具" src="https://github.com/user-attachments/assets/83b3938d-088a-45e2-b389-53bc954448a7" />
+<img width="720" height="480" alt="System" src="https://github.com/user-attachments/assets/684a9f45-521c-41d1-9431-305ddf8f759a" />
 
 5.音乐播放
 
