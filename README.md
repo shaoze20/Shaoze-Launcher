@@ -22,7 +22,7 @@
 
 5.音乐播放
 
-<img width="720" height="480" alt="music" src="https://github.com/user-attachments/assets/3823449f-a5c6-447d-955c-c2c884209fbe" />
+<img width="720" height="480" alt="Music" src="https://github.com/user-attachments/assets/fa957504-59ac-42d6-9f3a-945314ae1ae3" />
 
 6.游戏界面
 
