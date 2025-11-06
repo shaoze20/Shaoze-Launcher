@@ -5,6 +5,11 @@
 
 目前添加了两款游戏的辅助工具,喜欢的可以下载体验!
 
+# 交流群聊
+Telegram：https://t.me/shaoze_20
+
+QQ交流群：https://qm.qq.com/q/vgktik6Mec
+
 # 软件界面
 1.登录界面
 
