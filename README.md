@@ -13,11 +13,11 @@ QQ交流群：https://qm.qq.com/q/vgktik6Mec
 # 软件界面
 1.登录界面
 
-<img width="720" height="400" alt="登录界面" src="https://github.com/user-attachments/assets/6fcb8b7b-6244-4942-ab4a-7e800fc2fcc1" />
+<img width="640" height="400" alt="Login" src="https://github.com/user-attachments/assets/8bb5beef-f26e-457b-be15-d6a566c0e959" />
 
 2.主界面
 
-<img width="720" height="480" alt="Home" src="https://github.com/user-attachments/assets/9f3ee662-901e-49d5-a7e8-edf881419086" />
+<img width="720" height="480" alt="Home" src="https://github.com/user-attachments/assets/a897a5b6-593c-4536-bf7d-708a5814077c" />
 
 3.聊天界面
 
