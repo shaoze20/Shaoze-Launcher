@@ -13,6 +13,7 @@ QQ交流群：https://qm.qq.com/q/vgktik6Mec
 赞助地址: https://afdian.com/a/shaoze
 
 # 软件界面
+
 1.主界面
 
 <img width="1120" height="725" alt="Home" src="https://github.com/user-attachments/assets/a94b5344-9dbc-4713-91b1-0e0eaff0ecf1" />
