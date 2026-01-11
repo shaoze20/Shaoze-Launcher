@@ -1,0 +1,158 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_PNG3                PNG                     "res\\wuwa.png"
+
+IDB_PNG4                PNG                     "res\\Settings.png"
+
+IDB_PNG5                PNG                     "res\\bilibili.png"
+
+IDB_PNG6                PNG                     "res\\qq.png"
+
+IDB_PNG7                PNG                     "res\\afd.png"
+
+IDB_PNG8                PNG                     "res\\Login.png"
+
+IDB_PNG9                PNG                     "res\\TKA.png"
+
+IDB_PNG10               PNG                     "res\\circled.png"
+
+IDB_PNG11               PNG                     "res\\pause.png"
+
+IDB_PNG12               PNG                     "res\\Tp.png"
+
+IDB_PNG13               PNG                     "res\\Np.png"
+
+IDB_PNG14               PNG                     "res\\audio.png"
+
+IDB_PNG15               PNG                     "res\\music.png"
+
+IDB_PNG2                PNG                     "res\\Home.png"
+
+IDB_PNG16               PNG                     "res\\Panel.png"
+
+IDB_PNG17               PNG                     "res\\messag.png"
+
+IDB_PNG19               PNG                     "res\\github.png"
+
+IDB_PNG20               PNG                     "res\\Unknownmusic.png"
+
+IDB_PNG21               PNG                     "res\\Discord.png"
+
+IDB_PNG18               PNG                     "res\\UserAvatar.png"
+
+IDB_PNG1                PNG                     "res\\User.png"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "CompanyName", "无"
+            VALUE "FileDescription", "Shaoze Starter"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Launcher.exe"
+            VALUE "LegalCopyright", "Copyright (C) 2025"
+            VALUE "OriginalFilename", "Launcher.exe"
+            VALUE "ProductName", "少泽制作,禁止倒卖!"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "res\\Logo.ico"
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
