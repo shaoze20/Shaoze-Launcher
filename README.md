@@ -12,6 +12,8 @@ QQ交流群：https://qm.qq.com/q/vgktik6Mec
 
 赞助地址: https://afdian.com/a/shaoze
 
+作者B站: https://b23.tv/7kAaAe6
+
 # 软件界面
 
 1.主界面
