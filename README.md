@@ -13,7 +13,7 @@ QQ交流群：https://qm.qq.com/q/vgktik6Mec
 # 软件界面
 1.主界面
 
-<img width="1120" height="725" alt="Home" src="https://github.com/user-attachments/assets/b5f32c62-27d6-490d-88f4-a8ba00ae3af1" />
+<img width="1120" height="725" alt="Home" src="https://github.com/user-attachments/assets/aeb428bb-dc02-4b85-90b2-590578f3a1d7" />
 
 2.聊天界面
 
