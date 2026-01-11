@@ -15,27 +15,33 @@ QQ交流群：https://qm.qq.com/q/vgktik6Mec
 # 软件界面
 1.主界面
 
-<img width="1120" height="725" alt="Home" src="https://github.com/user-attachments/assets/aeb428bb-dc02-4b85-90b2-590578f3a1d7" />
+<img width="1120" height="725" alt="Home" src="https://github.com/user-attachments/assets/a94b5344-9dbc-4713-91b1-0e0eaff0ecf1" />
 
 2.聊天界面
 
-<img width="1120" height="725" alt="Chat" src="https://github.com/user-attachments/assets/025e6fe0-f934-4ade-8509-1fc084f0faa5" />
+<img width="1120" height="725" alt="Chat" src="https://github.com/user-attachments/assets/1621b8ab-e05d-427b-b934-e007192f1829" />
 
 3.其他界面
 
-<img width="1120" height="725" alt="System" src="https://github.com/user-attachments/assets/e6495419-059d-4c4b-a036-2bc72d3e9ee3" />
+<img width="1120" height="725" alt="System" src="https://github.com/user-attachments/assets/6302716f-f6c1-44ad-a231-633678c71225" />
 
 4.音乐播放
 
-<img width="1120" height="725" alt="Music" src="https://github.com/user-attachments/assets/fe24e9eb-948a-4473-b11c-e6558757bd8f" />
+<img width="1120" height="725" alt="Music" src="https://github.com/user-attachments/assets/85840067-58a1-4398-b85f-b8dabe13f81d" />
 
 5.游戏界面
 
-<img width="1120" height="725" alt="game" src="https://github.com/user-attachments/assets/5dde162d-ebd5-4a1a-b5b6-4108df1016d2" />
+<img width="1120" height="725" alt="game" src="https://github.com/user-attachments/assets/e4ffa314-efed-4f48-be3f-6fa5179aaeb6" />
+
+6.MOD界面
+
+<img width="1120" height="725" alt="Mod" src="https://github.com/user-attachments/assets/e209215b-ef48-487d-8461-3856f011c239" />
 
 # 使用教程
-1.管理员运行Launcher.exe
+1.管理员运行本程序.
 
-2.选择游戏,点击设置,选择游戏路径
+2.注册账号并且登陆.
 
-3.点击启动注入
+3.选择你要玩的游戏并且设置路径.
+
+4.点击启动注入,等待游戏启动.
