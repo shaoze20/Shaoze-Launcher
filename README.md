@@ -18,21 +18,26 @@ QQ交流群：https://qm.qq.com/q/vgktik6Mec
 
 <img width="1120" height="725" alt="Home" src="https://github.com/user-attachments/assets/a94b5344-9dbc-4713-91b1-0e0eaff0ecf1" />
 
+
 2.聊天界面
 
 <img width="1120" height="725" alt="Chat" src="https://github.com/user-attachments/assets/1621b8ab-e05d-427b-b934-e007192f1829" />
+
 
 3.其他界面
 
 <img width="1120" height="725" alt="System" src="https://github.com/user-attachments/assets/6302716f-f6c1-44ad-a231-633678c71225" />
 
+
 4.音乐播放
 
 <img width="1120" height="725" alt="Music" src="https://github.com/user-attachments/assets/85840067-58a1-4398-b85f-b8dabe13f81d" />
 
+
 5.游戏界面
 
 <img width="1120" height="725" alt="game" src="https://github.com/user-attachments/assets/e4ffa314-efed-4f48-be3f-6fa5179aaeb6" />
+
 
 6.MOD界面
 
