@@ -8,6 +8,8 @@
 # 交流地址
 Discord：https://discord.gg/9xztfDnC5k
 
+赞助地址: https://afdian.com/a/shaoze
+
 QQ交流群：https://qm.qq.com/q/vgktik6Mec
 
 # 软件界面
