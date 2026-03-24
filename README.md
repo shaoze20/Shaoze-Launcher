@@ -3,7 +3,7 @@
 
 本软件由C++开发,轻量,绿色,无毒,无后门,请放心使用!
 
-目前添加了两款游戏的辅助工具,喜欢的可以收藏下载体验!
+目前添加了三款游戏的辅助工具,喜欢的可以收藏下载体验!
 
 # 交流地址
 Discord：https://discord.gg/9xztfDnC5k (需要加速器)
@@ -14,31 +14,29 @@ QQ交流群：https://qm.qq.com/q/vgktik6Mec
 
 作者B站: https://b23.tv/7kAaAe6
 
+合作联系: qq 1822057314
+
 # 软件界面
 
 1.主界面
 
-<img width="1120" height="725" alt="Home" src="https://github.com/user-attachments/assets/a94b5344-9dbc-4713-91b1-0e0eaff0ecf1" />
+<img width="1600" height="1000" alt="Home" src="https://github.com/user-attachments/assets/5385e944-719c-41d1-94a1-d428033b1da9" />
 
 2.聊天界面
 
-<img width="1120" height="725" alt="Chat" src="https://github.com/user-attachments/assets/1621b8ab-e05d-427b-b934-e007192f1829" />
+<img width="1600" height="1000" alt="Chat" src="https://github.com/user-attachments/assets/76332f7d-c6ef-446f-af0f-db408f27091e" />
 
-3.其他界面
+3.信息界面
 
-<img width="1120" height="725" alt="System" src="https://github.com/user-attachments/assets/6302716f-f6c1-44ad-a231-633678c71225" />
+<img width="1600" height="1000" alt="System" src="https://github.com/user-attachments/assets/21e340eb-aa5f-40ff-b9e5-bdde4ac6f9f2" />
 
-4.音乐播放
+4.链接界面
 
-<img width="1120" height="725" alt="Music" src="https://github.com/user-attachments/assets/85840067-58a1-4398-b85f-b8dabe13f81d" />
+<img width="1600" height="1000" alt="Music" src="https://github.com/user-attachments/assets/fb3e6c38-ae35-48e1-823e-f495678ae103" />
 
 5.游戏界面
 
-<img width="1120" height="725" alt="game" src="https://github.com/user-attachments/assets/e4ffa314-efed-4f48-be3f-6fa5179aaeb6" />
-
-6.MOD界面
-
-<img width="1120" height="725" alt="Mod" src="https://github.com/user-attachments/assets/e209215b-ef48-487d-8461-3856f011c239" />
+<img width="1600" height="1000" alt="game" src="https://github.com/user-attachments/assets/377d9d27-29b1-4879-8815-7e478c80677a" />
 
 # 使用教程
 1.管理员运行本程序.
