@@ -6,7 +6,7 @@
 目前添加了三款游戏的辅助工具,喜欢的可以收藏下载体验!
 
 # 交流地址
-Discord：https://discord.gg/9xztfDnC5k (需要加速器)
+Discord：https://discord.gg/9xztfDnC5k
 
 QQ交流群：https://qm.qq.com/q/vgktik6Mec
 
