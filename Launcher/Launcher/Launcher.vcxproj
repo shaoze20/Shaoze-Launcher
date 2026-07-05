@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5335866A-231F-4CB2-B8C5-271F6CA0C064}</ProjectGuid>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">10.0</WindowsTargetPlatformVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
+    <QtInstall>6.8.3_msvc2022_64</QtInstall>
+    <QtModules>core;gui;widgets;multimedia;multimediawidgets;svg</QtModules>
+    <QtBuildConfig>debug</QtBuildConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="QtSettings">
+    <QtInstall>6.8.3_msvc2022_64</QtInstall>
+    <QtModules>core;gui;network;widgets;svg</QtModules>
+    <QtBuildConfig>release</QtBuildConfig>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)Bit7z\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)Bit7z\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(ProjectDir)Bit7z\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy /y /d "$(ProjectDir)Bit7z\bin\7z.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Chat\Chat.cpp" />
+    <ClCompile Include="Control\AntBaseListView.cpp" />
+    <ClCompile Include="Control\AntChatListView.cpp" />
+    <ClCompile Include="Control\BackButton.cpp" />
+    <ClCompile Include="Control\BannerCardWidget.cpp" />
+    <ClCompile Include="Control\CapsuleCheckBox.cpp" />
+    <ClCompile Include="Control\CustomButton.cpp" />
+    <ClCompile Include="Control\CustomCheckBox.cpp" />
+    <ClCompile Include="Control\CustomGlowButton.cpp">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input</DynamicSource>
+      <QtMocFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(Filename).moc</QtMocFileName>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input</DynamicSource>
+      <QtMocFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(Filename).moc</QtMocFileName>
+    </ClCompile>
+    <ClCompile Include="Control\CustomTabWidget.cpp" />
+    <ClCompile Include="Control\CustomToolButton.cpp" />
+    <ClCompile Include="Control\CustomLineEdit.cpp" />
+    <ClCompile Include="Control\FeatureCard.cpp" />
+    <ClCompile Include="Control\GlassClockWidget.cpp" />
+    <ClCompile Include="Control\HotSiteCard.cpp" />
+    <ClCompile Include="Control\InfoCard.cpp" />
+    <ClCompile Include="Control\LinkLabel.cpp" />
+    <ClCompile Include="Control\MaterialSpinner.cpp" />
+    <ClCompile Include="Control\MoreOptionButton.cpp" />
+    <ClCompile Include="Control\NoticeCard.cpp" />
+    <ClCompile Include="Control\OutlineButton.cpp" />
+    <ClCompile Include="Control\SelectableBorderButton.cpp" />
+    <ClCompile Include="Control\SendBarWidget.cpp" />
+    <ClCompile Include="Control\SettingCard.cpp" />
+    <ClCompile Include="Control\SlideStackedWidget.cpp" />
+    <ClCompile Include="Control\SmoothScrollBar.cpp" />
+    <ClCompile Include="Design\AntMessage.cpp" />
+    <ClCompile Include="Design\AntMessageManager.cpp" />
+    <ClCompile Include="Design\DesignSystem.cpp" />
+    <ClCompile Include="Effect\GlassWidget.cpp" />
+    <ClCompile Include="Game\PvzPage.cpp" />
+    <ClCompile Include="Game\TkaPage.cpp" />
+    <ClCompile Include="Game\WuwaPage.cpp" />
+    <ClCompile Include="Game\YsPage.cpp" />
+    <ClCompile Include="Globals\Globals.cpp" />
+    <ClCompile Include="Gui\LoginWindow.cpp" />
+    <ClCompile Include="Gui\MainWindow.cpp" />
+    <ClCompile Include="Menu\InjectDialog.cpp" />
+    <ClCompile Include="Menu\NoticeDialog.cpp" />
+    <ClCompile Include="Menu\PathDialog.cpp" />
+    <ClCompile Include="Menu\PopupPanel.cpp" />
+    <ClCompile Include="Menu\RegisterDialog.cpp" />
+    <ClCompile Include="Page\ChatPage.cpp" />
+    <ClCompile Include="Page\EmojiPanel.cpp" />
+    <ClCompile Include="Page\HotspotPage.cpp" />
+    <ClCompile Include="Page\GamePage.cpp" />
+    <ClCompile Include="Page\HardwarePage.cpp" />
+    <ClCompile Include="Page\HomePage.cpp">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input</DynamicSource>
+      <QtMocFileName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(Filename).moc</QtMocFileName>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input</DynamicSource>
+      <QtMocFileName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(Filename).moc</QtMocFileName>
+    </ClCompile>
+    <ClCompile Include="Page\SettingPage.cpp" />
+    <ClCompile Include="WMI\HardwareInfo.cpp" />
+    <QtRcc Include="Launcher.qrc" />
+    <QtUic Include="Launcher.ui" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Page\HardwarePage.h" />
+    <QtMoc Include="Control\InfoCard.h" />
+    <QtMoc Include="Control\HotSiteCard.h" />
+    <QtMoc Include="Control\SelectableBorderButton.h" />
+    <QtMoc Include="Control\NoticeCard.h" />
+    <QtMoc Include="Control\GlassClockWidget.h" />
+    <QtMoc Include="Control\LinkLabel.h" />
+    <QtMoc Include="Menu\RegisterDialog.h" />
+    <QtMoc Include="Menu\NoticeDialog.h" />
+    <QtMoc Include="Page\GamePage.h" />
+    <QtMoc Include="Game\TkaPage.h" />
+    <QtMoc Include="Game\WuwaPage.h" />
+    <QtMoc Include="Game\YsPage.h" />
+    <QtMoc Include="Control\BackButton.h" />
+    <QtMoc Include="Control\FeatureCard.h" />
+    <QtMoc Include="Control\BannerCardWidget.h" />
+    <QtMoc Include="Game\PvzPage.h" />
+    <ClInclude Include="WMI\HardwareInfo.h" />
+    <QtMoc Include="Gui\LoginWindow.h" />
+    <QtMoc Include="Control\CustomLineEdit.h" />
+    <QtMoc Include="Gui\MainWindow.h" />
+    <QtMoc Include="Control\CustomToolButton.h" />
+    <QtMoc Include="Control\CustomButton.h" />
+    <QtMoc Include="Control\CustomCheckBox.h" />
+    <QtMoc Include="Design\DesignSystem.h" />
+    <QtMoc Include="Effect\GlassWidget.h" />
+    <QtMoc Include="Design\AntMessage.h" />
+    <QtMoc Include="Design\AntMessageManager.h" />
+    <QtMoc Include="Control\CustomGlowButton.h" />
+    <QtMoc Include="Page\HomePage.h" />
+    <QtMoc Include="Page\SettingPage.h" />
+    <QtMoc Include="Control\SlideStackedWidget.h" />
+    <QtMoc Include="Control\MaterialSpinner.h" />
+    <QtMoc Include="Control\StartButton.h" />
+    <QtMoc Include="Control\MoreOptionButton.h" />
+    <QtMoc Include="Control\AntBaseListView.h" />
+    <QtMoc Include="Control\AntChatListView.h" />
+    <ClInclude Include="Bit7z\include\bit7z.hpp" />
+    <ClInclude Include="Bit7z\include\bit7zlibrary.hpp" />
+    <ClInclude Include="Bit7z\include\bitabstractarchivecreator.hpp" />
+    <ClInclude Include="Bit7z\include\bitabstractarchivehandler.hpp" />
+    <ClInclude Include="Bit7z\include\bitabstractarchiveopener.hpp" />
+    <ClInclude Include="Bit7z\include\bitarchiveeditor.hpp" />
+    <ClInclude Include="Bit7z\include\bitarchiveitem.hpp" />
+    <ClInclude Include="Bit7z\include\bitarchiveiteminfo.hpp" />
+    <ClInclude Include="Bit7z\include\bitarchiveitemoffset.hpp" />
+    <ClInclude Include="Bit7z\include\bitarchivereader.hpp" />
+    <ClInclude Include="Bit7z\include\bitarchivewriter.hpp" />
+    <ClInclude Include="Bit7z\include\bitcompressionlevel.hpp" />
+    <ClInclude Include="Bit7z\include\bitcompressionmethod.hpp" />
+    <ClInclude Include="Bit7z\include\bitcompressor.hpp" />
+    <ClInclude Include="Bit7z\include\bitdefines.hpp" />
+    <ClInclude Include="Bit7z\include\biterror.hpp" />
+    <ClInclude Include="Bit7z\include\bitexception.hpp" />
+    <ClInclude Include="Bit7z\include\bitextractor.hpp" />
+    <ClInclude Include="Bit7z\include\bitfilecompressor.hpp" />
+    <ClInclude Include="Bit7z\include\bitfileextractor.hpp" />
+    <ClInclude Include="Bit7z\include\bitformat.hpp" />
+    <ClInclude Include="Bit7z\include\bitfs.hpp" />
+    <ClInclude Include="Bit7z\include\bitgenericitem.hpp" />
+    <ClInclude Include="Bit7z\include\bitinputarchive.hpp" />
+    <ClInclude Include="Bit7z\include\bititemsvector.hpp" />
+    <ClInclude Include="Bit7z\include\bitmemcompressor.hpp" />
+    <ClInclude Include="Bit7z\include\bitmemextractor.hpp" />
+    <ClInclude Include="Bit7z\include\bitoutputarchive.hpp" />
+    <ClInclude Include="Bit7z\include\bitpropvariant.hpp" />
+    <ClInclude Include="Bit7z\include\bitstreamcompressor.hpp" />
+    <ClInclude Include="Bit7z\include\bitstreamextractor.hpp" />
+    <ClInclude Include="Bit7z\include\bittypes.hpp" />
+    <ClInclude Include="Bit7z\include\bitwindows.hpp" />
+    <ClInclude Include="Chat\Chat.h" />
+    <QtMoc Include="Control\SendBarWidget.h" />
+    <QtMoc Include="Control\SmoothScrollBar.h" />
+    <QtMoc Include="Control\OutlineButton.h" />
+    <QtMoc Include="Control\CapsuleCheckBox.h" />
+    <QtMoc Include="Control\CustomTabWidget.h" />
+    <QtMoc Include="Control\SettingCard.h" />
+    <ClInclude Include="Globals\Globals.h" />
+    <QtMoc Include="Page\ChatPage.h" />
+    <QtMoc Include="Page\HotspotPage.h" />
+    <QtMoc Include="Page\EmojiPanel.h" />
+    <QtMoc Include="Menu\PopupPanel.h" />
+    <QtMoc Include="Menu\PathDialog.h" />
+    <QtMoc Include="Menu\InjectDialog.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Style\StyleSheet.h" />
+    <ClInclude Include="Utils\Encrypt.h" />
+    <ClInclude Include="Utils\json.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Launcher.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Bit7z\lib\bit7z.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

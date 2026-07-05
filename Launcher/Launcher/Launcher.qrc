@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/Launcher">
+        <file>fonts/NotoSansSC-VariableFont_wght.ttf</file>
+        <file>Imgs/Logo.png</file>
+        <file>Imgs/UserAvatar.png</file>
+        <file>Imgs/error.svg</file>
+        <file>Imgs/info.svg</file>
+        <file>Imgs/true.svg</file>
+        <file>Imgs/warning.svg</file>
+        <file>Imgs/Logo(Transparent).png</file>
+        <file>Imgs/Logo.ico</file>
+        <file>Imgs/TKA.png</file>
+        <file>Imgs/Wuwa.png</file>
+        <file>Imgs/Ys.ico</file>
+        <file>Imgs/MoreItem.svg</file>
+        <file>Imgs/Document.png</file>
+        <file>Imgs/Expression.png</file>
+        <file>Imgs/deepseek.png</file>
+        <file>Imgs/Shaoze.png</file>
+        <file>Imgs/folder.png</file>
+        <file>Imgs/Minimize.png</file>
+        <file>Imgs/Windows.png</file>
+        <file>Imgs/Login.png</file>
+        <file>Imgs/loading.png</file>
+        <file>Imgs/Chat.png</file>
+        <file>Imgs/Game.png</file>
+        <file>Imgs/Home.png</file>
+        <file>Imgs/Hotspot.png</file>
+        <file>Imgs/Panel.png</file>
+        <file>Imgs/settings.png</file>
+        <file>Imgs/Minimize_.png</file>
+        <file>Imgs/ShutDown.png</file>
+        <file>Imgs/PVZ.png</file>
+        <file>Imgs/PVZ_bj.jpg</file>
+    </qresource>
+</RCC>

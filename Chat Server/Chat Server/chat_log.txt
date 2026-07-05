@@ -1,0 +1,4 @@
+[SERVER_MESSAGE]11
+[SERVER_MESSAGE]shaoze
+[127.0.0.1|少泽]shaoze
+[127.0.0.1|少泽]问起我

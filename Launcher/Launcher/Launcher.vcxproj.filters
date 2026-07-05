@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{186037c8-a57d-413f-9775-d2dabe8353b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Control">
+      <UniqueIdentifier>{4c78f72f-063b-4242-9af0-4967a37b9fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Page">
+      <UniqueIdentifier>{18be8243-03bb-4fa6-8243-19c9283d1f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gui">
+      <UniqueIdentifier>{fbb5a868-00b5-4086-83f8-2bf6fe59174b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{dceb428d-3771-4d73-a2d7-6d6f09391e64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Design">
+      <UniqueIdentifier>{dd2c84c3-2205-4edd-b766-d076261e12c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{9d1e9c6a-59ff-4092-9e68-68e19dced986}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chat">
+      <UniqueIdentifier>{547b5086-2bea-467f-b2c2-8907822561fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Style">
+      <UniqueIdentifier>{076ad883-2ff4-4164-b6c3-9f064ccc0d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{72cc9c56-a187-4c05-852a-25c396d64317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inject">
+      <UniqueIdentifier>{1f2fc9d0-49d2-4636-acc6-d3943f85e87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bit7z">
+      <UniqueIdentifier>{5c8f7acb-919d-417c-931b-36a0c9c467fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bit7z\include">
+      <UniqueIdentifier>{90df0f44-dbd5-4062-9921-183281d45821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bit7z\lib">
+      <UniqueIdentifier>{b166129f-6d88-4b13-8580-f76129d4afdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WMI">
+      <UniqueIdentifier>{1ded9911-f3e5-4454-a851-8c9975d5a16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Verify">
+      <UniqueIdentifier>{ec173441-fe23-4e83-9bc1-7219d06236cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{dcee72c0-cdcb-42f7-b205-dfd2996d2ddd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Launcher.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="Launcher.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\LoginWindow.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\CustomLineEdit.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\MainWindow.cpp">
+      <Filter>Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\CustomToolButton.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\CustomButton.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\CustomCheckBox.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Design\DesignSystem.cpp">
+      <Filter>Design</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect\GlassWidget.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Design\AntMessageManager.cpp">
+      <Filter>Design</Filter>
+    </ClCompile>
+    <ClCompile Include="Design\AntMessage.cpp">
+      <Filter>Design</Filter>
+    </ClCompile>
+    <ClCompile Include="Page\SettingPage.cpp">
+      <Filter>Page</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\SlideStackedWidget.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals\Globals.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="Page\HotspotPage.cpp">
+      <Filter>Page</Filter>
+    </ClCompile>
+    <ClCompile Include="Page\ChatPage.cpp">
+      <Filter>Page</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\CustomGlowButton.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\MaterialSpinner.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\MoreOptionButton.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Page\HomePage.cpp">
+      <Filter>Page</Filter>
+    </ClCompile>
+    <ClCompile Include="Chat\Chat.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\SendBarWidget.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Page\EmojiPanel.cpp">
+      <Filter>Page</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\AntChatListView.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\AntBaseListView.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\SmoothScrollBar.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\OutlineButton.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\PopupPanel.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\PathDialog.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\InjectDialog.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\CapsuleCheckBox.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\CustomTabWidget.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\SettingCard.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="WMI\HardwareInfo.cpp">
+      <Filter>WMI</Filter>
+    </ClCompile>
+    <ClCompile Include="Page\HardwarePage.cpp">
+      <Filter>Page</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\InfoCard.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\HotSiteCard.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\SelectableBorderButton.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\NoticeCard.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\GlassClockWidget.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\LinkLabel.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\RegisterDialog.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\NoticeDialog.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Page\GamePage.cpp">
+      <Filter>Page</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\TkaPage.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\WuwaPage.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\YsPage.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\BackButton.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\FeatureCard.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\BannerCardWidget.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\PvzPage.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils\Encrypt.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\json.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals\Globals.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Chat\Chat.h">
+      <Filter>Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="Style\StyleSheet.h">
+      <Filter>Style</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bittypes.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitwindows.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bit7z.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bit7zlibrary.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitabstractarchivecreator.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitabstractarchivehandler.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitabstractarchiveopener.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitarchiveeditor.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitarchiveitem.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitarchiveiteminfo.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitarchiveitemoffset.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitarchivereader.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitarchivewriter.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitcompressionlevel.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitcompressionmethod.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitcompressor.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitdefines.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\biterror.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitexception.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitextractor.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitfilecompressor.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitfileextractor.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitformat.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitfs.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitgenericitem.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitinputarchive.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bititemsvector.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitmemcompressor.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitmemextractor.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitoutputarchive.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitpropvariant.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitstreamcompressor.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Bit7z\include\bitstreamextractor.hpp">
+      <Filter>Bit7z\include</Filter>
+    </ClInclude>
+    <ClInclude Include="WMI\HardwareInfo.h">
+      <Filter>WMI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Launcher.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Gui\LoginWindow.h">
+      <Filter>Gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\CustomLineEdit.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Gui\MainWindow.h">
+      <Filter>Gui</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\CustomToolButton.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\CustomButton.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\CustomCheckBox.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Design\DesignSystem.h">
+      <Filter>Design</Filter>
+    </QtMoc>
+    <QtMoc Include="Effect\GlassWidget.h">
+      <Filter>Effect</Filter>
+    </QtMoc>
+    <QtMoc Include="Design\AntMessage.h">
+      <Filter>Design</Filter>
+    </QtMoc>
+    <QtMoc Include="Design\AntMessageManager.h">
+      <Filter>Design</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\CustomGlowButton.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Page\SettingPage.h">
+      <Filter>Page</Filter>
+    </QtMoc>
+    <QtMoc Include="Page\HomePage.h">
+      <Filter>Page</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\SlideStackedWidget.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Page\ChatPage.h">
+      <Filter>Page</Filter>
+    </QtMoc>
+    <QtMoc Include="Page\HotspotPage.h">
+      <Filter>Page</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\MaterialSpinner.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\StartButton.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\MoreOptionButton.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\AntBaseListView.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\AntChatListView.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\SendBarWidget.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Page\EmojiPanel.h">
+      <Filter>Page</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\SmoothScrollBar.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\OutlineButton.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Menu\PopupPanel.h">
+      <Filter>Menu</Filter>
+    </QtMoc>
+    <QtMoc Include="Menu\PathDialog.h">
+      <Filter>Menu</Filter>
+    </QtMoc>
+    <QtMoc Include="Menu\InjectDialog.h">
+      <Filter>Menu</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\CapsuleCheckBox.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\CustomTabWidget.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\SettingCard.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Page\HardwarePage.h">
+      <Filter>Page</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\InfoCard.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\HotSiteCard.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\SelectableBorderButton.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\NoticeCard.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\GlassClockWidget.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\LinkLabel.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Menu\RegisterDialog.h">
+      <Filter>Menu</Filter>
+    </QtMoc>
+    <QtMoc Include="Menu\NoticeDialog.h">
+      <Filter>Menu</Filter>
+    </QtMoc>
+    <QtMoc Include="Page\GamePage.h">
+      <Filter>Page</Filter>
+    </QtMoc>
+    <QtMoc Include="Game\TkaPage.h">
+      <Filter>Game</Filter>
+    </QtMoc>
+    <QtMoc Include="Game\WuwaPage.h">
+      <Filter>Game</Filter>
+    </QtMoc>
+    <QtMoc Include="Game\YsPage.h">
+      <Filter>Game</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\BackButton.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\FeatureCard.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Control\BannerCardWidget.h">
+      <Filter>Control</Filter>
+    </QtMoc>
+    <QtMoc Include="Game\PvzPage.h">
+      <Filter>Game</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Bit7z\lib\bit7z.lib">
+      <Filter>Bit7z\lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
