@@ -1,7 +1,7 @@
 # 🚀 少泽工具箱 (Shaoze Toolbox)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/694b9556-427d-4eed-b25a-11eb808cef27" alt="Logo" width="800" style="border-radius: 50%;">
+  <img src="https://github.com/user-attachments/assets/694b9556-427d-4eed-b25a-11eb808cef27" alt="Logo" width="1000" style="border-radius: 50%;">
 </p>
 
 <p align="center">
