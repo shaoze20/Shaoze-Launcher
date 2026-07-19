@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://discord.gg/9xztfDnC5k"><img src="https://img.shields.io/badge/Discord-%E5%8A%A0%E5%85%A5%E7%A4%BE%E5%8C%BA-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://qm.qq.com/q/vgktik6Mec"><img src="https://img.shields.io/badge/QQ%E7%BE%A4-%E5%8A%A0%E5%85%A5%E4%BA%A4%E6%B5%85-1296DB?style=for-the-badge&logo=tencent-qq&logoColor=white" alt="QQ Group"></a>
-  <a href="https://afdian.com/a/shaoze"><img src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-Sponsor-FF8000?style=for-the-badge&logo=heart&logoColor=white" alt="Sponsor"></a>
+  <a href="https://afdian.com/a/shaoze"><img src="https://img.shields.io/badge/%E7%88%B1%E5%8F%91%E7%94%B5-%E8%B5%9E%E5%8A%A9-FF8000?style=for-the-badge&logo=heart&logoColor=white" alt="Sponsor"></a>
 </p>
 
 ---
