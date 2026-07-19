@@ -8,7 +8,7 @@
   <a href="https://discord.gg/9xztfDnC5k"><img src="https://img.shields.io/badge/Discord-Join-7289DA?style=flat-square&logo=discord" alt="Discord"></a>
   <a href="https://qm.qq.com/q/vgktik6Mec"><img src="https://img.shields.io/badge/QQ%E7%BE%A4-%E5%8A%A0%E5%85%A5-1296DB?style=flat-square&logo=tencent-qq" alt="QQ Group"></a>
   <a href="https://afdian.com/a/shaoze"><img src="https://img.shields.io/badge/%E7%8B%AC%E8%A7%92%E5%85%BD-%E8%B5%9E%E5%8A%A9-FF8000?style=flat-square" alt="Sponsor"></a>
-  <img src="https://img.shields.io/badge/Language-Qt%20%2F%20C%2B%2B-00b0ff?style=flat-square" alt="Language">
+  <img src="https://img.shields.io/badge/Language-C%23%20%2F%20C%2B%2B-00b0ff?style=for-the-badge&logo=c-sharp&logoColor=white" alt="Language">
   <img src="https://img.shields.io/badge/License-Free-green?style=flat-square" alt="License">
 </p>
 
