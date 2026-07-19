@@ -1,7 +1,7 @@
-# 🚀 游戏启动与注入器 (Game Launcher & Injector)
+# 🚀 少泽工具箱 (Shaoze Toolbox)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5385e944-719c-41d1-94a1-d428033b1da9" alt="Logo" width="200" style="border-radius: 50%;">
+  <img src="https://github.com/user-attachments/assets/694b9556-427d-4eed-b25a-11eb808cef27" alt="Logo" width="400" style="border-radius: 50%;">
 </p>
 
 <p align="center">
