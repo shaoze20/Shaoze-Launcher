@@ -6,6 +6,7 @@
 
 ### 🤝 交流与合作
 
+| :--- | :--- | :--- |
 | 💬 **Discord 社区** | [加入 Discord 社区](https://discord.gg/9xztfDnC5k) | 畅聊技术与游戏交流 |
 | 👥 **QQ 交流群** | [加入 QQ 交流群](https://qm.qq.com/q/vgktik6Mec) | 玩家大本营，获取最新资讯 |
 | ⚡ **爱发电赞助** | [赞助支持](https://afdian.com/a/shaoze) | 您的投喂是作者更新的最大动力 |
