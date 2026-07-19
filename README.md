@@ -1,48 +1,32 @@
-# 🌟软件说明
-本程序完全免费,禁止任何形式的倒卖!
+# 🚀 游戏启动与注入器 (Game Launcher & Injector)
 
-本程序由Qt开发，可以启动你想玩的游戏！
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5385e944-719c-41d1-94a1-d428033b1da9" alt="Logo" width="200" style="border-radius: 50%;">
+</p>
 
-本程序纯绿、无毒、无后门，请大家放心使用！
+<p align="center">
+  <a href="https://discord.gg/9xztfDnC5k"><img src="https://img.shields.io/badge/Discord-Join-7289DA?style=flat-square&logo=discord" alt="Discord"></a>
+  <a href="https://qm.qq.com/q/vgktik6Mec"><img src="https://img.shields.io/badge/QQ%E7%BE%A4-%E5%8A%A0%E5%85%A5-1296DB?style=flat-square&logo=tencent-qq" alt="QQ Group"></a>
+  <a href="https://afdian.com/a/shaoze"><img src="https://img.shields.io/badge/%E7%8B%AC%E8%A7%92%E5%85%BD-%E8%B5%9E%E5%8A%A9-FF8000?style=flat-square" alt="Sponsor"></a>
+  <img src="https://img.shields.io/badge/Language-Qt%20%2F%20C%2B%2B-00b0ff?style=flat-square" alt="Language">
+  <img src="https://img.shields.io/badge/License-Free-green?style=flat-square" alt="License">
+</p>
 
-# 🌟交流地址
-Discord：https://discord.gg/9xztfDnC5k
+---
 
-QQ交流群：https://qm.qq.com/q/vgktik6Mec
+## 💡 软件说明
 
-赞助地址: https://afdian.com/a/shaoze
+本程序是一款基于 **Qt** 开发的高效游戏启动与管理工具，旨在为玩家提供便捷的一键式游戏注入与启动体验。
 
-作者B站: https://b23.tv/7kAaAe6
+*   **完全免费**：本程序完全免费，**严禁任何形式的倒卖与商业牟利**！
+*   **安全纯净**：纯绿无毒、无后门、无广告，请放心使用。
+*   **功能丰富**：集成游戏启动、社区聊天、系统信息监控、音乐/链接收藏等多元化功能。
 
-合作联系TG: @SZ_shaoze
+---
 
-# 🌟软件界面
+## 🛠️ 使用教程
 
-1.主界面
+只需简单四步，即可开启游戏之旅：
 
-<img width="1600" height="1000" alt="Home" src="https://github.com/user-attachments/assets/5385e944-719c-41d1-94a1-d428033b1da9" />
-
-2.聊天界面
-
-<img width="1600" height="1000" alt="Chat" src="https://github.com/user-attachments/assets/76332f7d-c6ef-446f-af0f-db408f27091e" />
-
-3.信息界面
-
-<img width="1600" height="1000" alt="System" src="https://github.com/user-attachments/assets/21e340eb-aa5f-40ff-b9e5-bdde4ac6f9f2" />
-
-4.链接界面
-
-<img width="1600" height="1000" alt="Music" src="https://github.com/user-attachments/assets/fb3e6c38-ae35-48e1-823e-f495678ae103" />
-
-5.游戏界面
-
-<img width="1600" height="1000" alt="game" src="https://github.com/user-attachments/assets/377d9d27-29b1-4879-8815-7e478c80677a" />
-
-# 🌟使用教程
-1.管理员运行本程序.
-
-2.注册账号并且登陆.
-
-3.选择你要玩的游戏并且设置路径.
-
-4.点击启动注入,等待游戏启动.
+```💡
+💡 提示：为了保证注入功能正常运行，请务必以管理员权限运行本程序。
