@@ -8,10 +8,10 @@
 
 | 平台渠道 | 快捷链接 | 备注信息 |
 | :--- | :--- | :--- |
-| 💬 **Discord 社区** | [加入 Discord 社区](https://discord.gg/9xztfDnC5k) | 畅聊技术与游戏交流 |
-| 👥 **QQ 交流群** | [加入 QQ 交流群](https://qm.qq.com/q/vgktik6Mec) | 玩家大本营，获取最新资讯 |
+| 💬 **Discord 社区** | [加入社区](https://discord.gg/9xztfDnC5k) | 畅聊技术与游戏交流 |
+| 👥 **QQ 交流群** | [加入交流](https://qm.qq.com/q/vgktik6Mec) | 玩家大本营，获取最新资讯 |
 | ⚡ **爱发电赞助** | [赞助支持](https://afdian.com/a/shaoze) | 您的投喂是作者更新的最大动力 |
-| 📺 **作者 B 站** | [访问 B 站主页](https://b23.tv/7kAaAe6) | 催更、看最新视频与教程 |
+| 📺 **作者 B 站** | [访问主页](https://b23.tv/7kAaAe6) | 催更、看最新视频与教程 |
 | ✈️ **合作联系 TG** | [联系 Telegram](https://t.me/SZ_shaoze) | 商务合作与技术接洽专用 |
 
 ---
