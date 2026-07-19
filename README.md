@@ -4,13 +4,15 @@
   <img src="https://github.com/user-attachments/assets/e7e9fa1a-23b0-40dc-94c0-c9280a358093" alt="Logo" width="1000" style="border-radius: 50%;">
 </p>
 
-> ### 🌐 官方交流与商业合作传送门
-> 
-> 💬 **Discord 社区** ━━━► [点击加入 Discord 官方服务器](https://discord.gg/9xztfDnC5k)
-> 👥 **QQ 交流群** ━━━━► [点击加入 QQ 核心玩家群](https://qm.qq.com/q/vgktik6Mec)
-> ⚡ **爱发电赞助** ━━━► [点击赞助支持作者持续爆肝](https://afdian.com/a/shaoze)
-> 📺 **作者 B 站** ━━━━► [点击关注 B站 @SZ_shaoze](https://b23.tv/7kAaAe6)
-> ✈️ **合作联系 TG** ━━━► [点击私聊 Telegram @SZ_shaoze](https://t.me/SZ_shaoze)
+### 🤝 交流与合作
+
+| 平台渠道 | 快捷链接 | 备注信息 |
+| :--- | :--- | :--- |
+| 💬 **Discord 社区** | [加入 Discord 社区](https://discord.gg/9xztfDnC5k) | 畅聊技术与游戏交流 |
+| 👥 **QQ 交流群** | [加入 QQ 交流群](https://qm.qq.com/q/vgktik6Mec) | 玩家大本营，获取最新资讯 |
+| ⚡ **爱发电赞助** | [赞助支持](https://afdian.com/a/shaoze) | 您的投喂是作者更新的最大动力 |
+| 📺 **作者 B 站** | [访问 B 站主页](https://b23.tv/7kAaAe6) | 催更、看最新视频与教程 |
+| ✈️ **合作联系 TG** | [联系 Telegram](https://t.me/SZ_shaoze) | 商务合作与技术接洽专用 |
 
 ---
 
