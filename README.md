@@ -14,7 +14,7 @@ QQ交流群：https://qm.qq.com/q/vgktik6Mec
 
 作者B站: https://b23.tv/7kAaAe6
 
-合作联系: shaoze200@163.com
+独家版联系: @SZ_shaoze
 
 # 🌟软件界面
 
